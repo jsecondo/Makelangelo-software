@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language>
+<language>
+	<meta>
+		<name>Spanich</name>
+		<author>Juan Pedro Secondo(jsecondo@gmail.com)</author>
+	</meta>
+
+	<string>
+		<key>BorderName</key>
+		<value>Borde del papel</value>
+		<hint>Border generator</hint>
+	</string>
+
+	<string>
+		<key>LissajousName</key>
+		<value>Lissajous</value>
+		<hint>Lissajous generator</hint>
+	</string>
+	<string>
+		<key>LissajousA</key>
+		<value>A (&gt;0)</value>
+		<hint>Lissajous generator</hint>
+	</string>
+	<string>
+		<key>LissajousB</key>
+		<value>B (&gt;0)</value>
+		<hint>Lissajous generator</hint>
+	</string>
+	<string>
+		<key>LissajousDelta</key>
+		<value>Delta (0...1)</value>
+		<hint>Lissajous generator</hint>
+	</string>
+	
+	<string>
+		<key>SpirographName</key>
+		<value>Spirograph</value>
+		<hint>Spirograph generator</hint>
+	</string>
+	<string>
+		<key>SpirographMajorRadius</key>
+		<value>Radio Mayor (R)</value>
+		<hint>Spirograph generator</hint>
+	</string>
+	<string>
+		<key>SpirographMinorRadius</key>
+		<value>Radio Menor (r)</value>
+		<hint>Spirograph generator</hint>
+	</string>
+	<string>
+		<key>SpirographPScale</key>
+		<value>Escala (p)</value>
+		<hint>Spirograph generator</hint>
+	</string>
+	<string>
+		<key>SpirographNumSamples</key>
+		<value>Muestras (quality)</value>
+		<hint>Spirograph generator</hint>
+	</string>
+	<string>
+		<key>SpirographEpitrochoid</key>
+		<value>is epitrochoid</value>
+		<hint>Spirograph generator</hint>
+	</string>
+	
+	<string>
+		<key>ConverterRandomLinesName</key>
+		<value>Líneas aleatorias</value>
+		<hint>Random Lines generator</hint>
+	</string>
+	<string>
+		<key>ConverterRandomLinesCount</key>
+		<value>Cantidad de Líneas</value>
+		<hint>Random Lines generator</hint>
+	</string>
+
+	<string>
+		<key>StartAtLastPenDown</key>
+		<value>Volver al último PEN DOWN</value>
+		<hint>Start At option</hint>
+	</string>
+	<string>
+		<key>StartAtAddPenDown</key>
+		<value>Agregar comando PEN DOWN aqui</value>
+		<hint>Start At option</hint>
+	</string>
+	<string>
+		<key>StartAtExactly</key>
+		<value>No hacer nada</value>
+		<hint>Start At option</hint>
+	</string>
+
+
+
+	<string>
+		<key>ConfirmQuitQuestion</key>
+		<value>Seguro que quiere salir?</value>
+		<hint>confirm quit dialog question</hint>
+	</string>
+	<string>
+		<key>ConfirmQuitTitle</key>
+		<value>Salir</value>
+		<hint>confirm quit dialog title</hint>
+	</string>
+
+	<string>
+		<key>ConvertImagePaperFill</key>
+		<value>Llenar todo el papel</value>
+		<hint>Converter hint</hint>
+	</string>
+	<string>
+		<key>ConvertImagePaperFit</key>
+		<value>Ajustar imágen al papel</value>
+		<hint>Converter hint</hint>
+	</string>
+	
+	<string>
+		<key>ConverterCMYKName</key>
+		<value>CMYK</value>
+		<hint>CMYK converter hint</hint>
+	</string>
+	
+	<string>
+		<key>ConverterCMYKPasses</key>
+		<value>Pasadas</value>
+		<hint>CMYK converter hint</hint>
+	</string>
+	
+	<string>
+		<key>ConverterCMYKNote</key>
+		<value><![CDATA[<html>Dibuja Amarillo(Y), Cian(C), Magenta(M), y luego Negro(K).</html></body>]]></value>
+		<hint>CMYK converter hint</hint>
+	</string>
+	
+	<string>
+		<key>DXFScaleOnLoad</key>
+		<value>Ajustar imágen para que entre en el papel</value>
+		<hint>DXF load option</hint>
+	</string>
+	
+	<string>
+		<key>DXFInfillOnLoad</key>
+		<value>Rellenar las areas cerradas</value>
+		<hint>DXF load option</hint>
+	</string>
+	
+	<string>
+		<key>DXFOptimizeOnLoad</key>
+		<value>Mejorar la eficiencia de rutas</value>
+		<hint>DXF load option</hint>
+	</string>
+	
+	
+	<string>
+		<key>TempFolderLabel</key>
+		<value>Ubicación de archivos temporales:</value>
+		<hint>Where to save temporary files used in gcode management.</hint>
+	</string>
+		
+	<string>
+		<key>Cancel</key>
+		<value>Cancelar</value>
+		<hint>used in many places</hint>
+	</string>
+	<string>
+		<key>Save</key>
+		<value>Guardar</value>
+		<hint>used in many places</hint>
+	</string>
+	
+	<string>
+		<key>Load</key>
+		<value>Cargar</value>
+		<hint>used in many places</hint>
+	</string>
+	<string>
+		<key>CouldNotFind</key>
+		<value>No se encontró </value>
+		<hint>as in, "could not find FILEX". keep the space at the end.</hint>
+	</string>
+	
+	<string>
+		<key>MachineWidth</key>
+		<value>Ancho de máquina</value>
+		<hint>Machine settings</hint>
+	</string>
+	<string>
+		<key>MachineHeight</key>
+		<value>Alto de máquina</value>
+		<hint>Machine settings</hint>
+	</string>
+	
+	<string>
+		<key>PaperWidth</key>
+		<value>Ancho de papel</value>
+		<hint>Paper settings panel</hint>
+	</string>
+	<string>
+		<key>PaperHeight</key>
+		<value>Alto de papel</value>
+		<hint>Paper settings panel</hint>
+	</string>
+	<string>
+		<key>isLandscape</key>
+		<value>Esta apaisado?</value>
+		<hint>Paper settings dialog</hint>
+	</string>
+	
+	<string>
+		<key>InvertLeft</key>
+		<value>Invertir a izquierda</value>
+		<hint>jog motor control panel</hint>
+	</string>
+	<string>
+		<key>InvertRight</key>
+		<value>Invertir a derecha</value>
+		<hint>jog motor control panel</hint>
+	</string>
+	<string>
+		<key>ToolType</key>
+		<value>Tipo de herramienta</value>
+		<hint>tool settings</hint>
+	</string>
+	
+	<string>
+		<key>PaperSize</key>
+		<value>Tamaño del papel</value>
+		<hint>machine size control panel</hint>
+	</string>
+	<string>
+		<key>AdjustPulleySize</key>
+		<value>Diámetro de polea</value>
+		<hint>machine size control panel</hint>
+	</string>
+	<string>
+		<key>AdjustAcceleration</key>
+		<value>Aceleración</value>
+		<hint>machine size control panel</hint>
+	</string>
+	
+	<string>
+		<key>Left</key>
+		<value>Izquierda</value>
+		<hint>used in many places</hint>
+	</string>
+	<string>
+		<key>Right</key>
+		<value>Derecha</value>
+		<hint>used in many places</hint>
+	</string>
+	<string>
+		<key>Millimeters</key>
+		<value>mm</value>
+		<hint></hint>
+	</string>
+
+	<string>
+		<key>ConnectingTo</key>
+		<value>Conectando a </value>
+		<hint>status message. keep the space at the end.</hint>
+	</string>
+	<string>
+		<key>PortNotConfigured</key>
+		<value>El puerto no se pudo configurar: </value>
+		<hint>status message. keep the space at the end.</hint>
+	</string>
+	<string>
+		<key>PortOpened</key>
+		<value>Puerto abierto.</value>
+		<hint>status message</hint>
+	</string>
+	<string>
+		<key>TitlePrefix</key>
+		<value>Makelangelo</value>
+		<hint>window title</hint>
+	</string>
+	<string>
+		<key>TitlePostfix</key>
+		<value> conectado</value>
+		<hint>window title</hint>
+	</string>
+
+	<string>
+		<key>LineSegments</key>
+		<value> segmentos de línea.</value>
+		<hint>status message</hint>
+	</string>
+	<string>
+		<key>Centimeters</key>
+		<value>cm</value>
+		<hint></hint>
+	</string>
+
+	<string>
+		<key>EstimatedTime</key>
+		<value>Tiempo de trabajo estimado: </value>
+		<hint>status message. keep the space at the end.</hint>
+	</string>
+
+	<string>
+		<key>LoadError</key>
+		<value>El archivo no se pudo cargar:</value>
+		<hint>status message.</hint>
+	</string>
+
+	<string>
+		<key>SaveError</key>
+		<value>El archivo no se pudo guardar:</value>
+		<hint>status message.</hint>
+	</string>
+
+	<string>
+		<key>ConversiónOptions</key>
+		<value>Opciones de conversión</value>
+		<hint>dialog title</hint>
+	</string>
+	<string>
+		<key>FlipForGlass</key>
+		<value>Espejar para vidrio</value>
+		<hint>conversión options</hint>
+	</string>
+
+	<string>
+		<key>Start</key>
+		<value>Comenzar</value>
+		<hint>As in "start drawing"</hint>
+	</string>
+
+	<string>
+		<key>PaperMargin</key>
+		<value>Margen (%)</value>
+		<hint>conversión options</hint>
+	</string>
+	<string>
+		<key>Converting</key>
+		<value>Convirtiendo</value>
+		<hint>status update</hint>
+	</string>
+	<string>
+		<key>Finished</key>
+		<value>Completado</value>
+		<hint>status update</hint>
+	</string>
+	<string>
+		<key>Cancelled</key>
+		<value>Cancelado</value>
+		<hint>status update</hint>
+	</string>
+	<string>
+		<key>Failed</key>
+		<value>Fallo: </value>
+		<hint>status update. keep the space at the end.</hint>
+	</string>
+
+	<string>
+		<key>ConversiónStyle</key>
+		<value>Estilo</value>
+		<hint>conversión options</hint>
+	</string>
+	<string>
+		<key>ConversiónFill</key>
+		<value>Relleno</value>
+		<hint>conversión options</hint>
+	</string>
+
+	<string>
+		<key>OpeningFile</key>
+		<value>Abriendo </value>
+		<hint>status update. keep the space at the end.</hint>
+	</string>
+	<string>
+		<key>UnknownFileType</key>
+		<value>Tipo de archivo desconocido</value>
+		<hint>status update</hint>
+	</string>
+	<string>
+		<key>SetPaperSize</key>
+		<value>Por favor determine el tamaño del papel antes de importar una imágen.</value>
+		<hint>warning message</hint>
+	</string>
+
+	<string>
+		<key>FileTypeGCode</key>
+		<value>GCODE (ngc)</value>
+		<hint>file open dialog</hint>
+	</string>
+	<string>
+		<key>FileTypeImage</key>
+		<value>imágen (jpg/bmp/png/gif)</value>
+		<hint>file open dialog</hint>
+	</string>
+	<string>
+		<key>FileTypeDXF</key>
+		<value>DXF R12 for map data (dxf)</value>
+		<hint>file open dialog</hint>
+	</string>
+	<string>
+		<key>FileTypeScratch2</key>
+		<value>Scratch 2 (SB2)</value>
+		<hint>file open dialog</hint>		
+	</string>
+	<string>
+		<key>FileTypeScratch3</key>
+		<value>Scratch 3 (SB3)</value>
+		<hint>file open dialog</hint>		
+	</string>
+	<string>
+		<key>FileTypeSVG</key>
+		<value>Scaleable Vector Graphics 1.1 (svg)</value>
+		<hint>file open dialog</hint>
+	</string>
+
+	<string>
+		<key>pen up color</key>
+		<value>Color ARRIBA</value>
+		<hint>Pen settings</hint>
+	</string>
+	<string>
+		<key>pen down color</key>
+		<value>Color ABAJO</value>
+		<hint>Pen settings</hint>
+	</string>
+
+	<string>
+		<key>MenuAxisDriveControls</key>
+		<value>Movimiento Manual</value>
+		<hint>context sensitive menu</hint>
+	</string>
+	<string>
+		<key>MenuCommonDriveControls</key>
+		<value>Comandos Populares de Movimiento</value>
+		<hint>context sensitive menu</hint>
+	</string>
+	<string>
+		<key>MenuCreativeControl</key>
+		<value>Control creativo</value>
+		<hint>context sensitive menu</hint>
+	</string>
+	<string>
+		<key>MenuAnimate</key>
+		<value>Control de animation</value>
+		<hint>context sensitive menu</hint>
+	</string>
+
+	<string>
+		<key>MenuFileTitle</key>
+		<value>Archivo</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	
+	<string>
+		<key>MenuMetricsTitle</key>
+		<value>Medidas</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>collectAnonymousMetrics</key>
+		<value><![CDATA[<html><body>Estoy de acuerdo en compartir datos de uso de manera anonima<br>con Marginally Clever Robots, Limited.</html></body>]]></value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>collectAnonymousMetricsOnUpdate</key>
+		<value><![CDATA[<html><body>Permite a Marginally Clever Robots, Ltd. recolectar datos anónimos de uso de esta aplicación?<br><br>Puede cambiar esto en cualquier momento en <i>Makelangelo &gt; Preferencias &gt; Medidas</i></html></body>]]></value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>MenuSoundsTitle</key>
+		<value>Sonidos</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuSoundsConnect</key>
+		<value>Conectado</value>
+		<hint>sound settings dialog</hint>
+	</string>
+	<string>
+		<key>MenuSoundsDisconnect</key>
+		<value>Desconectado</value>
+		<hint>sound settings dialog</hint>
+	</string>
+	<string>
+		<key>MenuSoundsFinishConvert</key>
+		<value>Conversión finalizada</value>
+		<hint>sound settings dialog</hint>
+	</string>
+	<string>
+		<key>MenuSoundsFinishDraw</key>
+		<value>Dibujo finalizado</value>
+		<hint>sound settings dialog</hint>
+	</string>
+
+	<string>
+		<key>MenuGraphicsTitle</key>
+		<value>Graficos</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuGraphicsPenUp</key>
+		<value>Mostrar los movimientos del lapiz</value>
+		<hint>graphics settings dialog</hint>
+	</string>
+	<string>
+		<key>MenuGraphicsAntialias</key>
+		<value>Líneas Antialias</value>
+		<hint>graphics settings dialog</hint>
+	</string>
+	<string>
+		<key>MenuGraphicsSpeedVSQuality</key>
+		<value>Velocidad sobre calidad</value>
+		<hint>graphics settings dialog</hint>
+	</string>
+	<string>
+		<key>MenuGraphicsDrawWhileRunning</key>
+		<value>Mostrar toda la imágen mientras dibuja</value>
+		<hint>graphics settings dialog</hint>
+	</string>
+
+	<string>
+		<key>MenuResetMachinePreferences</key>
+		<value>Reset</value>
+		<hint>Preferences menu</hint>
+	</string>
+	<string>
+		<key>MenuLanguageTitle</key>
+		<value>Languaje</value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>InvalidTool</key>
+		<value>Solicitud de herramiento invalida #</value>
+		<hint>warning message</hint>
+	</string>
+	<string>
+		<key>ChangeToolTitle</key>
+		<value>Cambiar Lapiz</value>
+		<hint>tool change prompt. keep the space at the end.</hint>
+	</string>
+	<string>
+		<key>ChangeToolMessage</key>
+		<value>Por favor cambie el lapiz para que coincida con el color.</value>
+		<hint>tool change prompt. keep the space at the start.</hint>
+	</string>
+
+	<string>
+		<key>StartAt</key>
+		<value>Comenzar en</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>StartAtLine</key>
+		<value>Comenzar en la línea #</value>
+		<hint>start at dialog</hint>
+	</string>
+
+	<string>
+		<key>Pause</key>
+		<value>Pausa</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>Unpause</key>
+		<value>Continuar</value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>SetHome</key>
+		<value>Establecer Origen</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>GoHome</key>
+		<value>Ir a Origen</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>FindHome</key>
+		<value>Buscar Origen</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>GoPaperBorder</key>
+		<value>Borde</value>
+		<hint>manual driving dialog</hint>
+	</string>
+
+	<string>
+		<key>Top</key>
+		<value>Superior</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>Bottom</key>
+		<value>Inferior</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>Left</key>
+		<value>Izquierdo</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>Right</key>
+		<value>Derecho</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>PenUp</key>
+		<value>Lapiz ARRIBA</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>PenDown</key>
+		<value>Lapiz ABAJO</value>
+		<hint>manual driving dialog</hint>
+	</string>
+
+	<string>
+		<key>Set</key>
+		<value>Establecer</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>Speed</key>
+		<value>Velocidad de dibujo</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>Rate</key>
+		<value>mm/s</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>RateDeg</key>
+		<value>deg/s</value>
+		<hint>manual driving dialog</hint>
+	</string>
+	<string>
+		<key>RateAccel</key>
+		<value>mm/s²</value>
+		<hint>manual driving dialog</hint>
+	</string>
+
+	<string>
+		<key>JogMotors</key>
+		<value>Motores</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>JogIn</key>
+		<value>IN</value>
+		<hint>jog motors dialog</hint>
+	</string>
+	<string>
+		<key>JogOut</key>
+		<value>OUT</value>
+		<hint>jog motors dialog</hint>
+	</string>
+	<string>
+		<key>Invert</key>
+		<value>Invertir</value>
+		<hint>jog motors dialog</hint>
+	</string>
+
+	<string>
+		<key>UpdateNotice</key>
+		<value><![CDATA[<html><body>Una nueva version del software esta disponible.<br/>Visite <a href="https://www.marginallyclever.com/product/makelangelo-software/">https://www.marginallyclever.com/product/makelangelo-software/</a> para obtener lo mas nuevo.</html></body>]]></value>
+		<hint>check for update dialog</hint>
+	</string>
+	<string>
+		<key>UpToDate</key>
+		<value>El software esta actualizado.</value>
+		<hint>check for update dialog</hint>
+	</string>
+	<string>
+		<key>UpdateCheckFailed</key>
+		<value>Disculpas, algo salió mal. Visite http://www.marginallyclever.com/ 
+para chequear el software.</value>
+		<hint>check for update dialog</hint>
+	</string>
+
+	<string>
+		<key>Send</key>
+		<value>Enviar</value>
+		<hint>drive manually dialog</hint>
+	</string>
+	<string>
+		<key>TitleNotConnected</key>
+		<value> desconcetado</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuMakelangelo</key>
+		<value>Makelangelo</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuPreferences</key>
+		<value>Preferencias</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuLog</key>
+		<value>Log</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuUpdate</key>
+		<value>Verificar por actualizaciones</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	
+	<string>
+		<key>MenuQuit</key>
+		<value>Salir</value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>MenuConnect</key>
+		<value>Conectar</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	
+	<string>
+		<key>MenuHelp</key>
+		<value>Ayuda</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuForums</key>
+		<value>Foros de ayuda online</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuAbout</key>
+		<value>Acerca de</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	
+	<string>
+		<key>ButtonConnect</key>
+		<value>Conectado</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>ButtonDisconnect</key>
+		<value>Desconectado</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuRescan</key>
+		<value>Rescan</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuDisconnect</key>
+		<value>Desconectar</value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>MenuLoadMachineConfig</key>
+		<value>Cargar preferencias para...</value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>MenuSettings</key>
+		<value>Preferencias</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuSettingsMachine</key>
+		<value>máquina</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuAdjustPaper</key>
+		<value>Papel</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuAdjustPulleys</key>
+		<value>Tamaño de polea</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuJogMotors</key>
+		<value>Mover Motores</value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>MenuSelectTool</key>
+		<value>Seleccionar herramienta activa</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuAdjustTool</key>
+		<value>Lapiz</value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>MenuGCODE</key>
+		<value>Convertir</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuTextToGCODE</key>
+		<value>Su mensaje va aqui</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuConvertImage</key>
+		<value>Abrir Recientes...</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>MenuOpenFile</key>
+		<value>Abrir Arhivo...</value>
+		<hint></hint>
+	</string>
+	<string>
+		<key>MenuReopenFile</key>
+		<value>Reabrir último archivo</value>
+		<hint></hint>
+	</string>
+	<string>
+		<key>MenuSaveGCODEAs</key>
+		<value>Guardar a archivo/Tarjeta SD</value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>MenuDraw</key>
+		<value>Dibujar</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>Halt</key>
+		<value>DETENER</value>
+		<hint>menu or dialog title</hint>
+	</string>
+
+	<string>
+		<key>MenuPreview</key>
+		<value>Ver</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>ZoomIn</key>
+		<value>Acercar +</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>ZoomOut</key>
+		<value>Alejar -</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>ZoomFit</key>
+		<value>Zoom para que calce</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>ShowLog</key>
+		<value>Mostrar Log</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>HideLog</key>
+		<value>Esconder Log</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	<string>
+		<key>mmNotice</key>
+		<value>Valores en mm.</value>
+		<hint>Machine size</hint>
+	</string>
+
+	<string>
+		<key>penToolAdjust</key>
+		<value>Lapiz</value>
+		<hint>Adjust pen tool</hint>
+	</string>
+	<string>
+		<key>penToolDiameter</key>
+		<value>Diámetro</value>
+		<hint>Adjust pen tool</hint>
+	</string>
+	<string>
+		<key>penToolMaxFeedRate</key>
+		<value>Velocidad maxima</value>
+		<hint>Adjust pen tool</hint>
+	</string>
+	<string>
+		<key>penToolUp</key>
+		<value>Arriba</value>
+		<hint>Adjust pen tool</hint>
+	</string>
+	<string>
+		<key>penToolDown</key>
+		<value>Abajo</value>
+		<hint>Adjust pen tool</hint>
+	</string>
+	<string>
+		<key>penToolLiftSpeed</key>
+		<value>Velocidad de subida</value>
+		<hint>Adjust pen tool</hint>
+	</string>
+	<string>
+		<key>penToolTest</key>
+		<value>Testear</value>
+		<hint>Adjust pen tool</hint>
+	</string>
+
+
+	<string>
+		<key>spraypaintToolTest</key>
+		<value>Spraypaint</value>
+		<hint>Spraypaint tool</hint>
+	</string>
+	<string>
+		<key>spraypaintToolDiameter</key>
+		<value>Tamaño de Punto</value>
+		<hint>Spraypaint tool</hint>
+	</string>
+	<string>
+		<key>spraypaintToolMaxFeedRate</key>
+		<value>velocidad maxima</value>
+		<hint>Spraypaint tool</hint>
+	</string>
+	<string>
+		<key>spraypaintToolUp</key>
+		<value>OFF</value>
+		<hint>Spraypaint tool</hint>
+	</string>
+	<string>
+		<key>spraypaintToolDown</key>
+		<value>ON</value>
+		<hint>Spraypaint tool</hint>
+	</string>
+	<string>
+		<key>spraypaintToolLiftSpeed</key>
+		<value>Velocidad ON/OFF</value>
+		<hint>Spraypaint tool</hint>
+	</string>
+	<string>
+		<key>spraypaintToolTest</key>
+		<value>Dibujar un punto</value>
+		<hint>Spraypaint tool</hint>
+	</string>
+
+	<string>
+		<key>SierpinskiTriangleName</key>
+		<value>Sierpinski triangle fractal</value>
+		<hint>name of generator</hint>
+	</string>	
+	<string>
+		<key>voronoiStipplingName</key>
+		<value>Voronoi stipples</value>
+		<hint>voronoi stippling generator</hint>
+	</string>
+	<string>
+		<key>VoronoiZigZagName</key>
+		<value>Voronoi zigzag</value>
+		<hint>voronoi zigzag generator</hint>
+	</string>
+	
+	<string>
+		<key>voronoiStipplingCellCount</key>
+		<value>Cantidad de Cells</value>
+		<hint>voronoi stippling generator</hint>
+	</string>
+	<string>
+		<key>voronoiStipplingGenCount</key>
+		<value>Cantidad de Generaciones</value>
+		<hint>voronoi stippling generator</hint>
+	</string>
+	<string>
+		<key>voronoiStipplingDotMax</key>
+		<value>Tamaño maximo de punto</value>
+		<hint>voronoi stippling generator</hint>
+	</string>
+	<string>
+		<key>voronoiStipplingDotMin</key>
+		<value>Tamaño minimo de punto</value>
+		<hint>voronoi stippling generator</hint>
+	</string>
+
+	<string>
+		<key>BoxGeneratorName</key>
+		<value>Boxxy</value>
+		<hint>Boxxy generator</hint>
+	</string>
+	<string>		<key>BoxGeneratorMaxSize</key>		<value>Tamaño maximo</value>		<hint>Boxxy generator</hint>	</string>
+	<string>		<key>BoxGeneratorCutoff</key>		<value>Cutoff</value>		<hint>Boxxy generator</hint>	</string>
+	<string>		<key>BoxGeneratorMaxSizeNote</key>		<value>Tamaño maximo mayor o igual a 1.  Cutoff 0...1</value>		<hint>Boxxy generator</hint>	</string>
+	
+	<string>
+		<key>CrosshatchName</key>
+		<value>Crosshatch</value>
+		<hint>Crosshatch generator</hint>
+	</string>
+	<string>
+		<key>HilbertCurveName</key>
+		<value>Hilbert Curve Fractal</value>
+		<hint>Hilbert Curve generator</hint>
+	</string>
+	<string>
+		<key>HilbertCurveSize</key>
+		<value>Tamaño</value>
+		<hint>Hilbert Curve generator</hint>
+	</string>
+	<string>
+		<key>HilbertCurveOrder</key>
+		<value>Orden</value>
+		<hint>Hilbert Curve generator</hint>
+	</string>
+	<string>
+		<key>LSystemBranches</key>
+		<value>Ramas</value>
+		<hint>LSystem generator</hint>
+	</string>
+	<string>
+		<key>LSystemOrderScale</key>
+		<value>Escala</value>
+		<hint>LSystem generator</hint>
+	</string>
+	<string>
+		<key>LSystemAngle</key>
+		<value>Angle span</value>
+		<hint>LSystem generator</hint>
+	</string>
+	<string>
+		<key>MazeName</key>
+		<value>Maze</value>
+		<hint>Maze generator</hint>
+	</string>
+	<string>
+		<key>MazeRows</key>
+		<value>Líneas</value>
+		<hint>Maze generator</hint>
+	</string>
+	<string>
+		<key>MazeColumns</key>
+		<value>Columnas</value>
+		<hint>Maze generator</hint>
+	</string>
+
+	<string>
+		<key>PulseLineName</key>
+		<value>Pulse Line</value>
+		<hint>Pulse Line generator</hint>
+	</string>
+	<string>
+		<key>ZigZagName</key>
+		<value>Big zig zag</value>
+		<hint>Zig Zag generator</hint>
+	</string>
+	<string>
+		<key>YourMsgHereName</key>
+		<value>Your message here</value>
+		<hint>Your message here generator</hint>
+	</string>
+	<string>
+		<key>SpiralName</key>
+		<value>Spiral</value>
+		<hint>Spiral generator</hint>
+	</string>
+	<string>
+		<key>SpiralCMYKName</key>
+		<value>Spiral CMYK</value>
+		<hint>Spiral generator</hint>
+	</string>
+	
+	<string>
+		<key>SpiralPulseName</key>
+		<value>Pulsing Spiral</value>
+		<hint>Spiral Pulse generator</hint>
+	</string>
+	<string>
+		<key>ScanlineName</key>
+		<value>Scanline</value>
+		<hint>Scanline generator</hint>
+	</string>
+	<string>
+		<key>RGBName</key>
+		<value>Red Green Blue</value>
+		<hint>RGB generator</hint>
+	</string>
+
+	<string>
+		<key>SharePromo</key>
+		<value>Use Twitter &amp; Tag de Instagram #makelangelo</value>
+		<hint>Your drawing is finished. Share it</hint>
+	</string>
+
+	<string>
+		<key>StatusSoFar</key>
+		<value>Tiempo de ejecucion: </value>
+		<hint>time machine has been drawing</hint>
+	</string>
+
+	<string>
+		<key>StatusRemaining</key>
+		<value>Tiempo estimado: </value>
+		<hint>time machine will be drawing</hint>
+	</string>
+
+	<string>
+		<key>DisengageMotors</key>
+		<value>Desconectar</value>
+		<hint>Manual driving dialog</hint>
+	</string>
+	<string>
+		<key>EngageMotors</key>
+		<value>Conectar</value>
+		<hint>Manual driving dialog</hint>
+	</string>
+	
+	<string>
+		<key>AboutHTML</key>
+		<value><![CDATA[
+    <html>
+      <body>
+        <h1>Makelangelo %VERSION%</h1>
+      <h3>
+        <a href='http://www.makelangelo.com/'>http://www.makelangelo.com/</a>
+      </h3>
+        <p>Para obtener la ultima version visite<br>
+          <a href='https://www.marginallyclever.com/product/makelangelo-software/'>https://www.marginallyclever.com/product/makelangelo-software/</a></p>
+        <p>Creado por <a href="mailto:dan@marginallyclever.com">Dan Royer</a>.</p>
+        <p>Contribuciones adicionales por<br>
+        Joseph Cottam, <a href='https://github.com/virtuoushub'>Peter Colapietro<a/>, Miguel Sánchez<br>
+        Mark Raynsford, and <a href='https://ca.linkedin.com/in/kington-chu-219923123'>Kington Chu</a>.</p>
+      </body>
+    </html>
+    ]]>
+        </value>
+        <hint>HTML for About Dialog</hint>
+    </string>
+
+	<string>
+		<key>MenuSettingsRegister</key>
+		<value>Registro</value>
+		<hint>Machine Configuration > Register tab title</hint>
+	</string>
+
+	<string>
+		<key>PleaseRegister</key>
+		<value><![CDATA[<p>Registre su robot con su cuenta de Marginally Clever para habilitar funcionalidades y mostrar su apoyo.</p>]]></value>
+		<hint>Machine Configuration > Register robot</hint>
+	</string>
+
+	<string>
+		<key>PleaseRegisterCreateAccountButton</key>
+		<value>Crear una cuenta</value>
+		<hint>Machine Configuration > Register robot</hint>
+	</string>
+
+	<string>
+		<key>PleaseRegisterUsername</key>
+		<value>Nombre de usuario</value>
+		<hint>Machine Configuration > Register robot</hint>
+	</string>
+
+	<string>
+		<key>PleaseRegisterPassword</key>
+		<value>Clave</value>
+		<hint>Machine Configuration > Register robot</hint>
+	</string>
+
+	<string>
+		<key>MachineNumber</key>
+		<value>máquina #</value>
+		<hint>Prepare image panel</hint>
+	</string>
+
+	<string>
+		<key>MenuResetMachinePreferencesWarning</key>
+		<value>Seguro desea eliminar todas sus preferencias?</value>
+		<hint>Makelangelo > preferences > reset preferences</hint>
+	</string>
+
+	<string>
+		<key>MenuGenerate</key>
+		<value>Generar arte</value>
+		<hint></hint>
+	</string>
+
+	<string>
+		<key>MenuNewFile</key>
+		<value>Nuevo</value>
+		<hint></hint>
+	</string>
+
+	<string>
+		<key>MenuCaptureImage</key>
+		<value>Capturar Desde Camara</value>
+		<hint></hint>
+	</string>
+
+	<string>
+		<key>LSystemTreeName</key>
+		<value>L System Tree Fractal</value>
+		<hint></hint>
+	</string>
+
+	<string>
+		<key>LimitTestName</key>
+		<value>Test de Limites</value>
+		<hint></hint>
+	</string>
+
+	<string>
+		<key>KochTreeName</key>
+		<value>Koch Curve Fractal</value>
+		<hint></hint>
+	</string>
+	
+	<string>
+		<key>FibonacciSpiralName</key>
+		<value>Fibonacci Spiral Fractal</value>
+		<hint></hint>
+	</string>
+
+	<string>
+		<key>DragonName</key>
+		<value>Dragon Fractal</value>
+		<hint></hint>
+	</string>
+
+	<string>
+		<key>ClickAndDrag</key>
+		<value>Clic &amp; Arrastrar</value>
+		<hint>live drawing panel</hint>
+	</string>
+	<string>
+		<key>configureMachine</key>
+		<value>Preferencias</value>
+		<hint>open machine settings dialog</hint>
+	</string>
+	<string>
+		<key>MenuResetMachinePreferences</key>
+		<value>Resetear Preferencias</value>
+		<hint>Preferences menu</hint>
+	</string>
+	<string>
+		<key>MenuLog</key>
+		<value>Log</value>
+		<hint>menu or dialog title</hint>
+	</string>
+	
+	<string>
+		<key>PaperSize</key>
+		<value>Tamaño de Papel</value>
+		<hint>machine size control panel</hint>
+	</string>
+	
+	<string>
+		<key>ServoLengthNeeded</key>
+		<value>Largo de cable del Servo:</value>
+		<hint>settings > machine > measurement calculations</hint>
+	</string>
+	<string>
+		<key>StepperLengthNeeded</key>
+		<value>Largo de cable del Motor (cada uno):</value>
+		<hint>settings > machine > measurement calculations</hint>
+	</string>
+	<string>
+		<key>BeltLengthNeeded</key>
+		<value>Largo de Correa (cada una):</value>
+		<hint>settings > machine > measurement calculations</hint>
+	</string>
+	<string>
+		<key>ConverterWanderName</key>
+		<value>Wander</value>
+		<hint>name of Wander converter style</hint>
+	</string>
+	<string>
+		<key>ConverterWanderLineCount</key>
+		<value># Líneas</value>
+		<hint>Wander converter style parameter</hint>
+	</string>
+	
+	<string>
+		<key>ConverterMultipassName</key>
+		<value>Multipass</value>
+		<hint>name of Multipass converter style</hint>
+	</string>
+	<string>
+		<key>ConverterMultipassAngle</key>
+		<value>Angulo (grados)</value>
+		<hint>Multipass converter option</hint>
+	</string>
+	<string>
+		<key>ConverterMultipassLevels</key>
+		<value>Niveles</value>
+		<hint>Multipass converter option</hint>
+	</string>
+	
+	<string>
+		<key>firmwareVersionBadTitle</key>
+		<value>Actualizacion de firmware</value>
+		<hint>Software is too new for firmware</hint>
+	</string>
+
+	<string>
+		<key>HardwareVersion</key>
+		<value>Modelo: </value>
+		<hint>What is the hardware model of this robot?</hint>
+	</string>
+	
+	<string>
+		<key>firmwareVersionBadMessage</key>
+		<value><![CDATA[<html><body>El código de firmware (lo que se ejecuta en el hardware) no es la versión que esperaba. Encontré <strong>v%VERSION%</strong>.<br/>Visite <a href="https://www.marginallyclever.com/product/makelangelo-firmware/">https://www.marginallyclever.com/product/makelangelo-firmware/</a><br>
+		   para obtener la versión más actualizada.<br>Visite <a href="https://www.marginallyclever.com/product/makelangelo-software/">https://www.marginallyclever.com/product/makelangelo-software/</a> para obtener la versión de software más actualizada.</html></body>]]></value>
+		<hint>Software is too new for firmware</hint>
+	</string>
+
+	<string>
+		<key>TextSize</key>
+		<value>Tamaño</value>
+		<hint>Generator_Text_Panel</hint>
+	</string>
+	<string>
+		<key>TextFont</key>
+		<value>Fuente</value>
+		<hint>Generator_Text_Panel</hint>
+	</string>
+	<string>
+		<key>TextMessage</key>
+		<value>Mensaje</value>
+		<hint>Generator_Text_Panel</hint>
+	</string>
+	<string>
+		<key>CaptureImageTitle</key>
+		<value>Capturar imágen desde Camara</value>
+		<hint>Capture Image from host camera</hint>
+	</string>
+	<string>
+		<key>CaptureImage</key>
+		<value>Capturar</value>
+		<hint>Capture Image from host camera</hint>
+	</string>
+	<string>
+		<key>UseCapture</key>
+		<value>Usar</value>
+		<hint>Use Image for processing</hint>
+	</string>
+	<string>
+		<key>CancelCapture</key>
+		<value>Cancelar</value>
+		<hint>Cancel Capture. Don't process.</hint>
+	</string>
+    <string>
+        <key>AWB</key>
+        <value>Automatic White Balance</value>
+        <hint>Image Automatic White Balance setting</hint>
+    </string>
+    <string>
+        <key>DRC</key>
+        <value>Dynamic Range</value>
+        <hint>Image Dynamic Range Setting</hint>
+    </string>
+    <string>
+        <key>Exposure</key>
+        <value>Exposicion</value>
+        <hint>Image Exposure Setting</hint>
+    </string>
+    <string>
+        <key>Contrast</key>
+        <value>Contraste</value>
+        <hint>Image Contrast Setting</hint>
+    </string>
+    <string>
+        <key>Quality</key>
+        <value>Calidad</value>
+        <hint>Image Quality Setting</hint>
+    </string>
+    <string>
+        <key>Sharpness</key>
+        <value>Sharpness</value>
+        <hint>Image Sharpness Setting</hint>
+    </string>
+    <string>
+        <key>Off</key>
+        <value>Off</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Auto</key>
+        <value>Auto</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Sun</key>
+        <value>Soleado</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Cloud</key>
+        <value>Nuboso</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Shade</key>
+        <value>Sombra</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Tungsten</key>
+        <value>Tungsteno</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Fluorescent</key>
+        <value>Fluorescente</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Incandescent</key>
+        <value>Incandescente</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Flash</key>
+        <value>Flash</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Horizon</key>
+        <value>Horizonte</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>High</key>
+        <value>High</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Medium</key>
+        <value>Medium</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Low</key>
+        <value>Low</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Antishake</key>
+        <value>Antivibracion</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Backlight</key>
+        <value>Backlight</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Beach</key>
+        <value>Playa</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Fireworks</key>
+        <value>Fuegos artificiales</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>FixedFPS</key>
+        <value>FixedFPS</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Night</key>
+        <value>Noche</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>NightPreview</key>
+        <value>NightPreview</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Snow</key>
+        <value>Nieve</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Sports</key>
+        <value>Deporte</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Spotlight</key>
+        <value>Foco</value>
+        <hint></hint>
+    </string>
+    <string>
+        <key>Verylong</key>
+        <value>Verylong</value>
+        <hint></hint>
+    </string>
+</language>
